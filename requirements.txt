@@ -3,3 +3,4 @@ en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_
 en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.3.0/en_core_web_md-3.3.0-py3-none-any.whl
 en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.3.0/en_core_web_lg-3.3.0-py3-none-any.whl
 en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.0/en_core_web_trf-3.3.0-py3-none-any.whl
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
